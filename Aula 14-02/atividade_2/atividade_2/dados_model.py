@@ -15,9 +15,9 @@ def ler_arquivo(listas):
     from csv import reader
 
     with open('clientes.csv') as arquivo:
-        dados = reader(arquivo)
+        dados = reader(arquivo, delimiter=';')
         next(dados)  # pula a primeira lina onde está o cabeçalho
-        conteudo = 
+        dados = arquivo.readline
 
 # def ler_arquivo(listas):
 #     try:

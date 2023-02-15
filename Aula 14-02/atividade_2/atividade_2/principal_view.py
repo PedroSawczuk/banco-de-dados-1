@@ -31,7 +31,7 @@ janela.resizable(True, True)
 frame_1 = Frame(janela, borderwidth = 1, relief = 'solid')
 frame_1.place(x = 3, y = 3, width = 1429, heigh = 290)
 
-lb_1 = Label(frame_1, text = ' de usuários:',fg = '#FA0404', font=("Arial",14, "bold")).place(x = 15, y = 10, width = 200, height = 30)  
+lb_1 = Label(frame_1, text = 'Dados de usuários:',fg = '#FA0404', font=("Arial",14, "bold")).place(x = 15, y = 10, width = 200, height = 30)  
 lb_2 = Label(frame_1, text = 'Nome..........:', font=("Arial",12)).place(x = 15, y = 40, width = 112, height = 30)
 lb_3 = Label(frame_1, text = 'Sobrenome.:', font=("Arial",12)).place(x = 15, y = 80, width = 112, height = 30)
 lb_4 = Label(frame_1, text = 'Altura.:', font=("Arial",12)).place(x = 15, y = 120, width = 112, height = 30)
